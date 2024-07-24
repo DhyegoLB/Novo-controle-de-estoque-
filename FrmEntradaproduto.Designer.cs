@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
+            this.txtQuantidadeEstoque = new System.Windows.Forms.TextBox();
+            this.txtCodigoProduto = new System.Windows.Forms.TextBox();
+            this.txtQuantidadeEntrada = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -48,51 +48,57 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(498, 39);
+            this.label1.Location = new System.Drawing.Point(664, 48);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(333, 39);
+            this.label1.Size = new System.Drawing.Size(416, 52);
             this.label1.TabIndex = 0;
             this.label1.Text = "Entrada de Produto";
             // 
-            // textBox1
+            // txtDescricao
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(390, 161);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 24);
-            this.textBox1.TabIndex = 1;
+            this.txtDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescricao.Location = new System.Drawing.Point(520, 198);
+            this.txtDescricao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(343, 29);
+            this.txtDescricao.TabIndex = 1;
             // 
-            // textBox2
+            // txtQuantidadeEstoque
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(594, 283);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(54, 24);
-            this.textBox2.TabIndex = 1;
+            this.txtQuantidadeEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuantidadeEstoque.Location = new System.Drawing.Point(792, 348);
+            this.txtQuantidadeEstoque.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtQuantidadeEstoque.Name = "txtQuantidadeEstoque";
+            this.txtQuantidadeEstoque.Size = new System.Drawing.Size(71, 29);
+            this.txtQuantidadeEstoque.TabIndex = 1;
             // 
-            // textBox3
+            // txtCodigoProduto
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(390, 217);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(258, 24);
-            this.textBox3.TabIndex = 1;
+            this.txtCodigoProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigoProduto.Location = new System.Drawing.Point(520, 267);
+            this.txtCodigoProduto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodigoProduto.Name = "txtCodigoProduto";
+            this.txtCodigoProduto.Size = new System.Drawing.Size(343, 29);
+            this.txtCodigoProduto.TabIndex = 1;
             // 
-            // textBox4
+            // txtQuantidadeEntrada
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(594, 329);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(54, 24);
-            this.textBox4.TabIndex = 1;
+            this.txtQuantidadeEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuantidadeEntrada.Location = new System.Drawing.Point(792, 405);
+            this.txtQuantidadeEntrada.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtQuantidadeEntrada.Name = "txtQuantidadeEntrada";
+            this.txtQuantidadeEntrada.Size = new System.Drawing.Size(71, 29);
+            this.txtQuantidadeEntrada.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(387, 145);
+            this.label2.Location = new System.Drawing.Point(516, 170);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 18);
+            this.label2.Size = new System.Drawing.Size(109, 24);
             this.label2.TabIndex = 2;
             this.label2.Text = "Descrição:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -101,9 +107,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(387, 196);
+            this.label3.Location = new System.Drawing.Point(516, 241);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(156, 18);
+            this.label3.Size = new System.Drawing.Size(192, 24);
             this.label3.TabIndex = 2;
             this.label3.Text = "Codigo do Produto:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -112,9 +119,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(387, 283);
+            this.label4.Location = new System.Drawing.Point(516, 348);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(193, 18);
+            this.label4.Size = new System.Drawing.Size(242, 24);
             this.label4.TabIndex = 2;
             this.label4.Text = "Quantidade em Estoque:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -123,9 +131,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(387, 332);
+            this.label5.Location = new System.Drawing.Point(516, 409);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(184, 18);
+            this.label5.Size = new System.Drawing.Size(232, 24);
             this.label5.TabIndex = 2;
             this.label5.Text = "Quantidade de Entrada:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -134,9 +143,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(667, 283);
+            this.label6.Location = new System.Drawing.Point(889, 348);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(43, 18);
+            this.label6.Size = new System.Drawing.Size(54, 24);
             this.label6.TabIndex = 2;
             this.label6.Text = "Und.";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -145,9 +155,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(667, 332);
+            this.label7.Location = new System.Drawing.Point(889, 409);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 18);
+            this.label7.Size = new System.Drawing.Size(54, 24);
             this.label7.TabIndex = 2;
             this.label7.Text = "Und.";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -157,21 +168,24 @@
             this.button1.BackColor = System.Drawing.Color.Blue;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(901, 163);
+            this.button1.Location = new System.Drawing.Point(1201, 201);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 38);
+            this.button1.Size = new System.Drawing.Size(196, 47);
             this.button1.TabIndex = 3;
             this.button1.Text = "Gravar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Blue;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(901, 217);
+            this.button2.Location = new System.Drawing.Point(1201, 267);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 38);
+            this.button2.Size = new System.Drawing.Size(196, 47);
             this.button2.TabIndex = 3;
             this.button2.Text = "Voltar";
             this.button2.UseVisualStyleBackColor = false;
@@ -179,10 +193,10 @@
             // 
             // FrmEntradaproduto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(1350, 741);
+            this.ClientSize = new System.Drawing.Size(1800, 912);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
@@ -191,11 +205,12 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtQuantidadeEntrada);
+            this.Controls.Add(this.txtCodigoProduto);
+            this.Controls.Add(this.txtQuantidadeEstoque);
+            this.Controls.Add(this.txtDescricao);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmEntradaproduto";
             this.Text = "FrmEntradaproduto";
             this.ResumeLayout(false);
@@ -206,10 +221,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtDescricao;
+        private System.Windows.Forms.TextBox txtQuantidadeEstoque;
+        private System.Windows.Forms.TextBox txtCodigoProduto;
+        private System.Windows.Forms.TextBox txtQuantidadeEntrada;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

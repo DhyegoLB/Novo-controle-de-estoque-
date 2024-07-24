@@ -68,7 +68,7 @@
             this.Backup.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Backup.Image = ((System.Drawing.Image)(resources.GetObject("Backup.Image")));
             this.Backup.Location = new System.Drawing.Point(811, 214);
-            this.Backup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Backup.Margin = new System.Windows.Forms.Padding(4);
             this.Backup.Name = "Backup";
             this.Backup.Size = new System.Drawing.Size(164, 192);
             this.Backup.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -82,7 +82,7 @@
             this.cdtUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cdtUsuario.Image = ((System.Drawing.Image)(resources.GetObject("cdtUsuario.Image")));
             this.cdtUsuario.Location = new System.Drawing.Point(1084, 214);
-            this.cdtUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cdtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.cdtUsuario.Name = "cdtUsuario";
             this.cdtUsuario.Size = new System.Drawing.Size(164, 192);
             this.cdtUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -96,7 +96,7 @@
             this.saida.Cursor = System.Windows.Forms.Cursors.Hand;
             this.saida.Image = ((System.Drawing.Image)(resources.GetObject("saida.Image")));
             this.saida.Location = new System.Drawing.Point(1147, 562);
-            this.saida.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.saida.Margin = new System.Windows.Forms.Padding(4);
             this.saida.Name = "saida";
             this.saida.Size = new System.Drawing.Size(103, 90);
             this.saida.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -110,7 +110,7 @@
             this.Relatorio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Relatorio.Image = ((System.Drawing.Image)(resources.GetObject("Relatorio.Image")));
             this.Relatorio.Location = new System.Drawing.Point(832, 526);
-            this.Relatorio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Relatorio.Margin = new System.Windows.Forms.Padding(4);
             this.Relatorio.Name = "Relatorio";
             this.Relatorio.Size = new System.Drawing.Size(164, 192);
             this.Relatorio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -124,7 +124,7 @@
             this.entrada.Cursor = System.Windows.Forms.Cursors.Hand;
             this.entrada.Image = ((System.Drawing.Image)(resources.GetObject("entrada.Image")));
             this.entrada.Location = new System.Drawing.Point(1147, 642);
-            this.entrada.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.entrada.Margin = new System.Windows.Forms.Padding(4);
             this.entrada.Name = "entrada";
             this.entrada.Size = new System.Drawing.Size(53, 65);
             this.entrada.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -138,7 +138,7 @@
             this.rgtProduto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rgtProduto.Image = ((System.Drawing.Image)(resources.GetObject("rgtProduto.Image")));
             this.rgtProduto.Location = new System.Drawing.Point(1086, 526);
-            this.rgtProduto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rgtProduto.Margin = new System.Windows.Forms.Padding(4);
             this.rgtProduto.Name = "rgtProduto";
             this.rgtProduto.Size = new System.Drawing.Size(164, 192);
             this.rgtProduto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -152,7 +152,7 @@
             this.cdtProduto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cdtProduto.Image = ((System.Drawing.Image)(resources.GetObject("cdtProduto.Image")));
             this.cdtProduto.Location = new System.Drawing.Point(532, 526);
-            this.cdtProduto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cdtProduto.Margin = new System.Windows.Forms.Padding(4);
             this.cdtProduto.Name = "cdtProduto";
             this.cdtProduto.Size = new System.Drawing.Size(164, 192);
             this.cdtProduto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -231,7 +231,7 @@
             this.panel1.Controls.Add(this.pictureBox8);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(184, 912);
             this.panel1.TabIndex = 3;
@@ -242,7 +242,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(0, 842);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(184, 66);
             this.button1.TabIndex = 1;
@@ -255,7 +255,7 @@
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(28, 15);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(93, 86);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -267,7 +267,7 @@
             this.btnEstoque.BackColor = System.Drawing.Color.DarkTurquoise;
             this.btnEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstoque.Location = new System.Drawing.Point(1115, 609);
-            this.btnEstoque.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEstoque.Margin = new System.Windows.Forms.Padding(4);
             this.btnEstoque.Name = "btnEstoque";
             this.btnEstoque.Size = new System.Drawing.Size(13, 14);
             this.btnEstoque.TabIndex = 2;
@@ -352,8 +352,9 @@
             this.Controls.Add(this.Relatorio);
             this.Controls.Add(this.cdtUsuario);
             this.Controls.Add(this.Backup);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMenu";
             ((System.ComponentModel.ISupportInitialize)(this.Backup)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cdtUsuario)).EndInit();
