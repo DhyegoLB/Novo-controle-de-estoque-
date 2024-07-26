@@ -59,7 +59,7 @@
             // 
             this.txtDescricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescricao.Location = new System.Drawing.Point(520, 198);
-            this.txtDescricao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescricao.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(343, 29);
             this.txtDescricao.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             this.txtQuantidadeEstoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuantidadeEstoque.Location = new System.Drawing.Point(792, 348);
-            this.txtQuantidadeEstoque.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtQuantidadeEstoque.Margin = new System.Windows.Forms.Padding(4);
             this.txtQuantidadeEstoque.Name = "txtQuantidadeEstoque";
             this.txtQuantidadeEstoque.Size = new System.Drawing.Size(71, 29);
             this.txtQuantidadeEstoque.TabIndex = 1;
@@ -77,7 +77,7 @@
             // 
             this.txtCodigoProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCodigoProduto.Location = new System.Drawing.Point(520, 267);
-            this.txtCodigoProduto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodigoProduto.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigoProduto.Name = "txtCodigoProduto";
             this.txtCodigoProduto.Size = new System.Drawing.Size(343, 29);
             this.txtCodigoProduto.TabIndex = 1;
@@ -86,7 +86,7 @@
             // 
             this.txtQuantidadeEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuantidadeEntrada.Location = new System.Drawing.Point(792, 405);
-            this.txtQuantidadeEntrada.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtQuantidadeEntrada.Margin = new System.Windows.Forms.Padding(4);
             this.txtQuantidadeEntrada.Name = "txtQuantidadeEntrada";
             this.txtQuantidadeEntrada.Size = new System.Drawing.Size(71, 29);
             this.txtQuantidadeEntrada.TabIndex = 1;
@@ -169,7 +169,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.Location = new System.Drawing.Point(1201, 201);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(196, 47);
             this.button1.TabIndex = 3;
@@ -183,7 +183,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button2.Location = new System.Drawing.Point(1201, 267);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(196, 47);
             this.button2.TabIndex = 3;
@@ -210,8 +210,9 @@
             this.Controls.Add(this.txtQuantidadeEstoque);
             this.Controls.Add(this.txtDescricao);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmEntradaproduto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmEntradaproduto";
             this.ResumeLayout(false);
             this.PerformLayout();
