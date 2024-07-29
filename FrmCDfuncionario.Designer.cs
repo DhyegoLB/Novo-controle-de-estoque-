@@ -66,6 +66,7 @@
             this.txtPesquisa = new System.Windows.Forms.TextBox();
             this.butPesquisa = new System.Windows.Forms.Button();
             this.butAtualizar = new System.Windows.Forms.Button();
+            this.butDesativar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -73,7 +74,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(664, 48);
+            this.label1.Location = new System.Drawing.Point(493, 16);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(522, 52);
@@ -92,7 +93,7 @@
             // txtBairro
             // 
             this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBairro.Location = new System.Drawing.Point(420, 133);
+            this.txtBairro.Location = new System.Drawing.Point(347, 133);
             this.txtBairro.Margin = new System.Windows.Forms.Padding(4);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(323, 29);
@@ -146,7 +147,7 @@
             // txtGenero
             // 
             this.txtGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGenero.Location = new System.Drawing.Point(420, 281);
+            this.txtGenero.Location = new System.Drawing.Point(347, 281);
             this.txtGenero.Margin = new System.Windows.Forms.Padding(4);
             this.txtGenero.Name = "txtGenero";
             this.txtGenero.Size = new System.Drawing.Size(323, 29);
@@ -155,7 +156,7 @@
             // txtUf
             // 
             this.txtUf.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUf.Location = new System.Drawing.Point(420, 432);
+            this.txtUf.Location = new System.Drawing.Point(347, 432);
             this.txtUf.Margin = new System.Windows.Forms.Padding(4);
             this.txtUf.Name = "txtUf";
             this.txtUf.Size = new System.Drawing.Size(323, 29);
@@ -164,7 +165,7 @@
             // txtCarteiraTrabalho
             // 
             this.txtCarteiraTrabalho.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCarteiraTrabalho.Location = new System.Drawing.Point(420, 208);
+            this.txtCarteiraTrabalho.Location = new System.Drawing.Point(347, 208);
             this.txtCarteiraTrabalho.Margin = new System.Windows.Forms.Padding(4);
             this.txtCarteiraTrabalho.Name = "txtCarteiraTrabalho";
             this.txtCarteiraTrabalho.Size = new System.Drawing.Size(323, 29);
@@ -173,7 +174,7 @@
             // txtEstadoCivil
             // 
             this.txtEstadoCivil.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEstadoCivil.Location = new System.Drawing.Point(420, 355);
+            this.txtEstadoCivil.Location = new System.Drawing.Point(347, 355);
             this.txtEstadoCivil.Margin = new System.Windows.Forms.Padding(4);
             this.txtEstadoCivil.Name = "txtEstadoCivil";
             this.txtEstadoCivil.Size = new System.Drawing.Size(323, 29);
@@ -182,7 +183,7 @@
             // txtNacionalidade
             // 
             this.txtNacionalidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNacionalidade.Location = new System.Drawing.Point(420, 514);
+            this.txtNacionalidade.Location = new System.Drawing.Point(347, 514);
             this.txtNacionalidade.Margin = new System.Windows.Forms.Padding(4);
             this.txtNacionalidade.Name = "txtNacionalidade";
             this.txtNacionalidade.Size = new System.Drawing.Size(323, 29);
@@ -200,7 +201,7 @@
             // txtAdmissao
             // 
             this.txtAdmissao.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAdmissao.Location = new System.Drawing.Point(420, 592);
+            this.txtAdmissao.Location = new System.Drawing.Point(347, 592);
             this.txtAdmissao.Margin = new System.Windows.Forms.Padding(4);
             this.txtAdmissao.Name = "txtAdmissao";
             this.txtAdmissao.Size = new System.Drawing.Size(323, 29);
@@ -209,9 +210,10 @@
             // btnCadastrar
             // 
             this.btnCadastrar.BackColor = System.Drawing.Color.Blue;
+            this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCadastrar.Location = new System.Drawing.Point(539, 639);
+            this.btnCadastrar.Location = new System.Drawing.Point(466, 639);
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(204, 55);
@@ -224,7 +226,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(416, 107);
+            this.label2.Location = new System.Drawing.Point(343, 107);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 24);
@@ -290,7 +292,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(416, 183);
+            this.label8.Location = new System.Drawing.Point(343, 183);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(199, 24);
@@ -301,7 +303,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(416, 255);
+            this.label9.Location = new System.Drawing.Point(343, 255);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 24);
@@ -312,7 +314,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(416, 329);
+            this.label10.Location = new System.Drawing.Point(343, 329);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(122, 24);
@@ -323,7 +325,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(416, 407);
+            this.label11.Location = new System.Drawing.Point(343, 407);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(43, 24);
@@ -334,7 +336,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(424, 568);
+            this.label12.Location = new System.Drawing.Point(351, 568);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(107, 24);
@@ -345,7 +347,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(416, 488);
+            this.label13.Location = new System.Drawing.Point(343, 488);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(150, 24);
@@ -377,9 +379,10 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Blue;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(539, 702);
+            this.button1.Location = new System.Drawing.Point(13, 13);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(204, 55);
@@ -411,9 +414,9 @@
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(759, 377);
+            this.listView1.Location = new System.Drawing.Point(701, 375);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(706, 380);
+            this.listView1.Size = new System.Drawing.Size(764, 380);
             this.listView1.TabIndex = 4;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
@@ -433,16 +436,17 @@
             // txtPesquisa
             // 
             this.txtPesquisa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPesquisa.Location = new System.Drawing.Point(759, 341);
+            this.txtPesquisa.Location = new System.Drawing.Point(701, 341);
             this.txtPesquisa.Margin = new System.Windows.Forms.Padding(4);
             this.txtPesquisa.Name = "txtPesquisa";
-            this.txtPesquisa.Size = new System.Drawing.Size(323, 29);
+            this.txtPesquisa.Size = new System.Drawing.Size(381, 29);
             this.txtPesquisa.TabIndex = 1;
             this.txtPesquisa.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtPesquisa_MouseDoubleClick);
             // 
             // butPesquisa
             // 
             this.butPesquisa.BackColor = System.Drawing.Color.Blue;
+            this.butPesquisa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.butPesquisa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butPesquisa.ForeColor = System.Drawing.SystemColors.Control;
             this.butPesquisa.Location = new System.Drawing.Point(1089, 313);
@@ -456,9 +460,10 @@
             // butAtualizar
             // 
             this.butAtualizar.BackColor = System.Drawing.Color.Blue;
+            this.butAtualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.butAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butAtualizar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.butAtualizar.Location = new System.Drawing.Point(1299, 313);
+            this.butAtualizar.Location = new System.Drawing.Point(1299, 312);
             this.butAtualizar.Name = "butAtualizar";
             this.butAtualizar.Size = new System.Drawing.Size(166, 57);
             this.butAtualizar.TabIndex = 9;
@@ -466,12 +471,27 @@
             this.butAtualizar.UseVisualStyleBackColor = false;
             this.butAtualizar.Click += new System.EventHandler(this.butAtualizar_Click);
             // 
+            // butDesativar
+            // 
+            this.butDesativar.BackColor = System.Drawing.Color.Blue;
+            this.butDesativar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.butDesativar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butDesativar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.butDesativar.Location = new System.Drawing.Point(1449, 741);
+            this.butDesativar.Name = "butDesativar";
+            this.butDesativar.Size = new System.Drawing.Size(16, 14);
+            this.butDesativar.TabIndex = 10;
+            this.butDesativar.Text = "Desativar";
+            this.butDesativar.UseVisualStyleBackColor = false;
+            this.butDesativar.Click += new System.EventHandler(this.butDesativar_Click);
+            // 
             // FrmCDfuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(1800, 912);
+            this.ClientSize = new System.Drawing.Size(1488, 775);
+            this.Controls.Add(this.butDesativar);
             this.Controls.Add(this.butAtualizar);
             this.Controls.Add(this.butPesquisa);
             this.Controls.Add(this.label17);
@@ -559,5 +579,6 @@
         private System.Windows.Forms.TextBox txtPesquisa;
         private System.Windows.Forms.Button butPesquisa;
         private System.Windows.Forms.Button butAtualizar;
+        private System.Windows.Forms.Button butDesativar;
     }
 }

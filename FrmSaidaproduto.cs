@@ -15,7 +15,7 @@ namespace controle_de_estoque1
     public partial class FrmSaidaproduto : Form
     {
         private MySqlConnection conexao;
-        string data_source = "server=localhost;Database=controle_estoque;Uid=root;"; //fazer conexão com o banco de dados.
+        string data_source = "server=localhost;Database=controle_estoque;Uid=root;pws'123456'"; //fazer conexão com o banco de dados.
         private readonly byte[] chave = GerarChave256Bits(); // onde a chave fixa sera gerada.
 
 

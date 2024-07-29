@@ -19,7 +19,7 @@ namespace controle_de_estoque1
         Thread nt; //Emergencia para voltar ao menu
 
         private MySqlConnection conexao;
-        string data_source = "Server=localhost;Database=controle_estoque;Uid=root;"; //fazer conexão com o banco de dados
+        string data_source = "Server=localhost;Database=controle_estoque;Uid=root;pwd='123456'"; //fazer conexão com o banco de dados
         private readonly byte[] chave = GerarChave256Bits(); //criacão de criptografia
         private readonly byte[] iv = GerarIV();
 
